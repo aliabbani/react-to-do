@@ -5,6 +5,10 @@ export class TodoItem extends Component {
   state = {
     editing: false
   };
+
+  // componentWillUnmount() {
+  //   console.log('cleaning up')
+  // }
   
   handleEditing = () => {
     this.setState({
